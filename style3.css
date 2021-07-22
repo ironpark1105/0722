@@ -1,0 +1,48 @@
+.container{
+    border: 1px solid black;
+    width: 1200px;
+    max-width: 90%;
+    height: 300px;
+    margin: 50px auto;
+    position: relative;
+
+}
+.a,.b,.c{
+    width: 100px;
+    height: 100px;
+}
+.a{
+    background: red;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.b{
+    background: blue;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    z-index: 2;
+}
+.c{
+    background: green;
+    position: absolute;
+    
+    top: 40px;
+    left: 40px;
+}
+
+a.fixed{
+    display: block;
+    width: 30px;
+    height: 30px;
+    border: 1px solid black;
+    background: pink;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 30px;
+    text-decoration: none;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+}
